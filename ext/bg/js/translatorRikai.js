@@ -437,6 +437,7 @@ class Translator {
             b.push('<table class="k-main-tb"><tr><td valign="top">');
             b.push(box);
             b.push('<span class="k-kanji">' + entry.kanji + '</span><br/>');
+            b.push('<a class="jisho-link" href="https://jisho.org/search/' + entry.kanji + '%23kanji" target="_blank">Jisho Link</a>');
             if (!this.options.dictOptions.hideDef) b.push('<div class="k-eigo">' + entry.eigo + '</div>');
             b.push('<div class="k-yomi">' + yomi + '</div>');
             b.push('</td></tr><tr><td>' + nums + '</td></tr></table>');
