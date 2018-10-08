@@ -1,5 +1,8 @@
 # Rikaichan
 
+## Fork
+This fork adds a link to the [Jisho](https://jisho.org) dictionary page for the selected kanji in the popup.
+
 ## About
 Japanese dictionary extension.
 Japanese to English/German/French/Russian dictionary. Just hover the mouse on top of a word, and a popup appears. Automatically de-inflects verbs and adjectives. Detailed kanji view.
